@@ -18,8 +18,9 @@ int main() {
 
 // 양의 정수를 입력받아, 그 수만큼 Hello World! 출력 (while 사용)
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdint.h>
+#include <stdio.h>
 int main() {
 	int b, cnt;		// b : 입력 변수, cnt : 카운트 변수
-
+	while (cnt <= b)
+		printf("Hello World\n");
 }

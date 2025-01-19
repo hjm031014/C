@@ -20,10 +20,12 @@ int main() {
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int main() {
-	int a, cnt;		// a : 입력 변수, cnt : 카운트 변수
-	printf("양의 정수를 입력하시오 : ");
-	scanf("%d", &a);
-	while (cnt <= a){
+	int a, cnt = 1;		// a : 입력 변수, cnt : 카운트 변수
+	printf("양의 정수를 입력하시오 : \n");
+	//scanf("%d", &a);
+	a = 10;
+	while (cnt <= a) {
 		printf("Hello World\n");
 		cnt += 1;
+	}
 }

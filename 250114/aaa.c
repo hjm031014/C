@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int main() {
-	int a, cnt=1;
+	int a, cnt=1;		// a : 입력변수, cnt : 카운트 변수
 	printf("0 ~ 9까지의 숫자를 입력하시오 : ");
 	scanf("%d", &a);
 	

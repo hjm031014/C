@@ -49,7 +49,7 @@ int main() {
 	scanf("%d", &a);
 	scanf("%d", &b);
 
-	for (sum = 0; a>=b; a++)
+	for (sum = 0; a>b; a++)
 	{
 		sum += a;
 	}

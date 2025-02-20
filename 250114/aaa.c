@@ -43,16 +43,13 @@ int main() {
 
 int main() {
 	int a, b, sum;
-	// int sum = 0;
-
+	
 	printf("총 합계를 구할 두 정수를 입력하시오 : ");
 	scanf("%d", &a);
 	scanf("%d", &b);
 
-	for (sum = 0; a>b; a++)
-	{
+	for (sum = 0; a<=b; a++){
 		sum += a;
 	}
-
 	printf("%d", sum);
 }

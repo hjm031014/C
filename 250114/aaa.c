@@ -28,7 +28,15 @@ int mul(int a, int b) {		// °ö¼À
 }
 
 int main(){
-	int su1, su2;
+	int su1, su2, ab;
+	printf("µ¡¼ÀÀº 1, »¬¼ÀÀº 2, ³ª´°¼ÀÀº 3, °ö¼ÀÀº 4¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+	scanf("%d", &ab);
+
+	switch (ab)
+	{
+	default:
+		break;
+	}
 	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
 	scanf("%d %d", &su1, &su2);
 	printf("%d",add(su1, su2));

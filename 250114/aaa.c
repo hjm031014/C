@@ -31,13 +31,24 @@ int main(){
 	int su1, su2, ab;
 	printf("덧셈은 1, 뺄셈은 2, 나눗셈은 3, 곱셈은 4를 입력하시오 : ");
 	scanf("%d", &ab);
-
-	switch (ab)
-	{
-	default:
-		break;
-	}
-	printf("숫자를 입력하시오 : ");
+	printf("두 정수를 입력하시오 : ");
 	scanf("%d %d", &su1, &su2);
-	printf("%d",add(su1, su2));
+
+		switch (ab) {
+			case 1:
+				printf("두 수의 결과값은 %d", add(su1, su2));
+			break;
+
+			case 2:
+				printf("두 수의 결과값은 %d", sub(su1, su2));
+				break;
+
+			case 3:
+				printf("두 수의 결과값은 %d", dvi(su1, su2));
+				break;
+
+			case 4:
+				printf("두 수의 결과값은 %d", mul(su1, su2));
+				break;
+		}
 }
